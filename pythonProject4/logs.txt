@@ -1,0 +1,250 @@
+28-09-2023 22:51:37 INFO     [app.py:12] Logging books list...
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET / HTTP/1.1" 200 51294
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--2.html HTTP/1.1" 404 153
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:37 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--3.html HTTP/1.1" 404 153
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:37 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--4.html HTTP/1.1" 404 153
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:37 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:37 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:37 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--5.html HTTP/1.1" 404 153
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:38 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--6.html HTTP/1.1" 404 153
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:38 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--7.html HTTP/1.1" 404 153
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:38 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--8.html HTTP/1.1" 404 153
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:38 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--9.html HTTP/1.1" 404 153
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:38 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--10.html HTTP/1.1" 404 153
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:38 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:38 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:38 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--11.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--12.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--13.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--14.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--15.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--16.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--17.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--18.html HTTP/1.1" 404 153
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:39 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:39 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:39 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--19.html HTTP/1.1" 404 153
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:40 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--20.html HTTP/1.1" 404 153
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:40 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--21.html HTTP/1.1" 404 153
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:40 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--22.html HTTP/1.1" 404 153
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:40 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--23.html HTTP/1.1" 404 153
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:40 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:40 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:40 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--24.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--25.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--26.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--27.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--28.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--29.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--30.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--31.html HTTP/1.1" 404 153
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:41 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:41 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:41 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--32.html HTTP/1.1" 404 153
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:42 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--33.html HTTP/1.1" 404 153
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:42 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--34.html HTTP/1.1" 404 153
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:42 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--35.html HTTP/1.1" 404 153
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:42 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--36.html HTTP/1.1" 404 153
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:42 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--37.html HTTP/1.1" 404 153
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:42 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:42 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:42 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--38.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--39.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--40.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--41.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--42.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--43.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--44.html HTTP/1.1" 404 153
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:43 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:43 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:43 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--45.html HTTP/1.1" 404 153
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:44 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--46.html HTTP/1.1" 404 153
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:44 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--47.html HTTP/1.1" 404 153
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:44 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--48.html HTTP/1.1" 404 153
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:44 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--49.html HTTP/1.1" 404 153
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:44 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
+28-09-2023 22:51:44 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET /catalogue/page--50.html HTTP/1.1" 404 153
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:11] Parsing page content with BeautifulSoup...
+28-09-2023 22:51:44 DEBUG    [api.py:439] Encoding detection: ascii is most likely the one.
+28-09-2023 22:51:44 DEBUG    [all_books_page.py:16] Finding all books using{AllBooksPageLocators.BOOKS}
